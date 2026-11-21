@@ -7,7 +7,7 @@
 // The program writes the poem to /output/entry.txt (or to the
 // directory $MAKEFUN_OUTPUT_DIR names when set). Node 22, standard
 // library only; two runs write the same bytes. The written text is
-// 235 Unicode code points, inside the gate's 1–280 range.
+// 236 Unicode code points, inside the gate's 1–280 range.
 //
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
@@ -19,7 +19,7 @@ const poem = [
   "and the train, mid-rush, agrees to stop.",
   "No reason given. Enough is a reason.",
   "The world keeps its speed, but your feet are yours.",
-  "Stand still. Let the noise pass like weather.",
+  "Stand still — let the noise pass like weather.",
   "Staying is also a choice.",
 ].join("\n") + "\n";
 

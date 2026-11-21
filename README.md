@@ -16,7 +16,7 @@ turns out to be a choice of its own.
 > and the train, mid-rush, agrees to stop.
 > No reason given. Enough is a reason.
 > The world keeps its speed, but your feet are yours.
-> Stand still. Let the noise pass like weather.
+> Stand still — let the noise pass like weather.
 > Staying is also a choice.
 
 ## Reproduce
@@ -25,5 +25,5 @@ turns out to be a choice of its own.
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-This writes `out/entry.txt` (235 characters, UTF-8). Running it twice
+This writes `out/entry.txt` (236 characters, UTF-8). Running it twice
 produces byte-identical output.
